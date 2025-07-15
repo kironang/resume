@@ -47,6 +47,6 @@ November 2022 – August 2023
 ## Skills  
 
 **Programming Languages:** Python, R, SQL, C++, Java  
-**Tools & Libraries:** Pandas, NumPy, Matplotlib, Excel, Tableau  
+**Tools & Libraries:** Pandas, NumPy, Matplotlib, Shiny, Tidyverse, Scanpy, Anndata, Excel, Tableau  
 **Core Competencies:** Data Cleaning, Statistical Analysis, Data Visualization, Dashboard Development  
 **Soft Skills:** Communication, Collaboration, Attention to Detail  
