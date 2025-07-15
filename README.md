@@ -1,8 +1,6 @@
 # Kiron Ang  
 kiron_ang1@baylor.edu | https://github.com/kironang | https://linkedin.com/in/kironang
 
----
-
 ## Education & Certifications  
 
 **Bachelor of Science in Bioinformatics**  
@@ -10,8 +8,6 @@ kiron_ang1@baylor.edu | https://github.com/kironang | https://linkedin.com/in/ki
 Expected Graduation: December 2025  
 GPA: 3.87  
 Selected Coursework: Data Science, Biology, Chemistry  
-
----
 
 ## Experience  
 
@@ -47,8 +43,6 @@ August 2023 – November 2024
 November 2022 – August 2023  
 - Assisted in laboratory experiments and maintained equipment to support engineering research.  
 - Analyzed engineering data and contributed to technical documentation for publications and proposals.  
-
----
 
 ## Skills  
 
