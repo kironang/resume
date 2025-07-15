@@ -1,0 +1,43 @@
+name: Convert Markdown to PDF and Commit
+
+on:
+  push:
+    paths:
+      - README.md
+    # Ignore changes to .pdf to prevent infinite loops
+    paths-ignore:
+      - resume-kiron-ang.pdf
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history required for push
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex git
+
+      - name: Convert Markdown to PDF
+        run: pandoc README.md -o resume-kiron-ang.pdf --pdf-engine=xelatex
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and push PDF if changed
+        run: |
+          git add resume-kiron-ang.pdf
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-update resume PDF [skip ci]"
+            git push origin HEAD:${{ github.ref_name }}
+          else
+            echo "No changes to commit"
+          fi
