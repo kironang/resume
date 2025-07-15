@@ -1,12 +1,9 @@
-name: Convert Markdown to PDF and Commit
+name: Convert README.md to PDF and Commit
 
 on:
   push:
     paths:
       - README.md
-    # Ignore changes to .pdf to prevent infinite loops
-    paths-ignore:
-      - resume-kiron-ang.pdf
   workflow_dispatch:
 
 jobs:
@@ -17,14 +14,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Full history required for push
+          fetch-depth: 0
 
       - name: Install dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y pandoc texlive-xetex git
 
-      - name: Convert Markdown to PDF
+      - name: Convert README.md to resume-kiron-ang.pdf
         run: pandoc README.md -o resume-kiron-ang.pdf --pdf-engine=xelatex
 
       - name: Configure Git
