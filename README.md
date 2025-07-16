@@ -49,8 +49,6 @@ November 2022 – August 2023
 - Ensured instrument functionality and lab readiness to support daily operations and iterative testing.  
 - Conference Presentation: https://opg.optica.org/abstract.cfm?uri=CLEOPR-2024-P2_126  
 
----
-
 ### Technical & Professional Skills  
 
 - **Languages & Tools:** Python, R, Shiny, SQL, Excel, Git, Linux, Tableau  
