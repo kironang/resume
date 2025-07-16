@@ -21,8 +21,8 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y pandoc texlive-xetex git
 
-      - name: Convert README.md to resume-kiron-ang.pdf
-        run: pandoc README.md -o resume-kiron-ang.pdf --pdf-engine=xelatex
+      - name: Convert README.md to resume-kiron-ang.pdf with specific margins
+        run: pandoc README.md -o resume-kiron-ang.pdf --pdf-engine=xelatex -V geometry:margin=0.25in
 
       - name: Configure Git
         run: |
