@@ -1,13 +1,13 @@
-Kiron Ang  
+# Kiron Ang  
 kiron_ang1@baylor.edu | https://github.com/kironang | https://linkedin.com/in/kironang  
 
-### Education & Certifications  
+## Education & Certifications  
 **Bachelor of Science in Bioinformatics**  
 *Baylor University – Waco, TX*  
 Graduation: December 2025 | GPA: 3.87  
 Relevant Coursework: Data Science, Biology, Chemistry, Informatics, Systems Biology  
 
-### Professional Experience  
+## Professional Experience  
 
 **Epidemiology Intern**  
 *Waco-McLennan County Public Health District – Waco, TX*  
@@ -49,7 +49,7 @@ November 2022 – August 2023
 - Ensured instrument functionality and lab readiness to support daily operations and iterative testing.  
 - Conference Presentation: https://opg.optica.org/abstract.cfm?uri=CLEOPR-2024-P2_126  
 
-### Technical & Professional Skills  
+## Technical & Professional Skills  
 
 - **Languages & Tools:** Python, R, Shiny, SQL, Excel, Git, Linux, Tableau  
 - **Collaboration:** Agile methodologies, stakeholder communications, cross-functional team support  
